@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+.box {
+	margin: 20px;
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+    transition: all .5s linear;
+}
+
+.one {
+	background-color: tomato;
+}
+.two {
+	background-color: royalblue;
+}
+.three {
+	background-color: gold;
+}
+.one:hover {
+	width: 300px;
+}
+.two:hover {
+	height: 300px;
+}
+.three:hover {
+	height: 300px;
+	width: 300px;
+}
